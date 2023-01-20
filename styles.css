@@ -10,6 +10,10 @@
     max-width:500px!important;
 }
 
+/* .navheight {
+    max-height:10px!important;
+} */
+
 @media (min-width: 768px) {
     .contacto-email, .contacto-nombre {
         width:47.5%;
