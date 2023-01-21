@@ -1,3 +1,8 @@
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+
 .h4 {
     font-size:1.5rem;
 }
@@ -10,13 +15,34 @@
     max-width:500px!important;
 }
 
-/* .navheight {
-    max-height:10px!important;
-} */
+.titulo, .nombre {
+    font-family: 'Kanit'
+}
+
+.nombre {
+    letter-spacing:-2px;
+}
+
+#trabajoTitulo {
+    letter-spacing:2px;
+    font-size:1.2rem;
+}
+
+.fw-bold {
+    font-weight:500!important;
+}
+
 
 @media (min-width: 768px) {
     .contacto-email, .contacto-nombre {
         width:47.5%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #trabajoTitulo {
+        font-size:1rem;
     }
 }
 

@@ -20,6 +20,6 @@ function renderPersona(persona) {
 }
 
 
-// TODO: hacer lista random de titulos   
-let trabajoTitulo = 'Software Engineer II'
+// TODO: hacer lista random de titulos
+let trabajoTitulo = 'WEB DEVELOPER'
 
