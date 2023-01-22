@@ -46,15 +46,9 @@ body {
     }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 400px) {
     .nombre {
-        font-size:calc(1.4rem + 4.5vw);
+        font-size:calc(1.32rem + 4.5vw);
     }
 }
 
-@media (max-width: 310px) {
-    .nombre {
-        font-size:calc(1.2rem + 4.5vw);
-    }
-
-}
