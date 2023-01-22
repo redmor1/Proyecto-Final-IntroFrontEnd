@@ -2,6 +2,9 @@ body {
     font-family:'Open Sans', sans-serif;
 }
 
+.titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label {
+    font-family: 'Kanit'
+}
 
 .h4 {
     font-size:1.5rem;
@@ -15,18 +18,15 @@ body {
     max-width:500px!important;
 }
 
-.titulo, .nombre {
-    font-family: 'Kanit'
-}
-
-.nombre {
+.nombre, .titulo {
     letter-spacing:-2px;
 }
 
-#trabajoTitulo {
+#trabajoTitulo, .contacto-subtitulo {
     letter-spacing:2px;
     font-size:1.2rem;
 }
+
 
 .fw-bold {
     font-weight:500!important;
