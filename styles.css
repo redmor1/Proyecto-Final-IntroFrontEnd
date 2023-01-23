@@ -59,5 +59,8 @@ body {
     .nombre {
         font-size:calc(1.32rem + 4.5vw);
     }
+    #email, #telefono, #direccion {
+        font-size:calc(0.9rem + 1.5vw);
+    }
 }
 
