@@ -17,18 +17,16 @@ function renderPersona(persona) {
     document.getElementById('telefono').innerHTML = persona.phone;
     document.getElementById('direccion').innerHTML = `${persona.location.street.number} ${persona.location.street.name}`;
     
-    //Conseguir todos los elementos con la clase "placeholder" y borrarlos
+    //Conseguir todos los elementos con la clase "placeholder", removerles la clase "placeholder"
+    //y cambiarle la opacidad a 1
     let elementosPlaceholder = document.querySelectorAll('.placeholder');
         for (let i = 0; i < elementosPlaceholder.length; i++) {
-            elementosPlaceholder[i].remove()
+            elementosPlaceholder[i].classList.remove("placeholder");
+            elementosPlaceholder[i].style.opacity = "1"
         }
     };
 
-    //Conseguir todos los elementos con la clase "placeholder-wave" y removerles esa clase
-    let elementosPlaceholderWave = document.querySelectorAll(".placeholder-wave");
-        for (let i = 0; i < elementosPlaceholderWave.length; i++)
-        elementosPlaceholderWave[i].classList.remove("placeholder-wave");
-    ;
+
 
 
 

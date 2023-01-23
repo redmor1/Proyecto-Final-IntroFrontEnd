@@ -42,6 +42,17 @@ body {
 
 }
 
+.form-control:focus {
+    border-color:grey;
+    box-shadow:0 0 0 .25rem rgba(255, 255, 255, 0.25);
+}
+
+.placeholder-transicion {
+    opacity:0;
+    transition: opacity 1s ease-in-out;
+}
+
+
 @media (min-width: 768px) {
     .contacto-email, .contacto-nombre {
         width:47.5%;
