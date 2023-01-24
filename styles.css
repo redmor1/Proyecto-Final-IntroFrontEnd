@@ -29,8 +29,9 @@ body {
     font-size:1.2rem;
 }
 
-.habilidades-container {
-    box-shadow:0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+.habilidades-container, .contacto-container {
+    box-shadow: 0px 5px 11px 0px #BFBFBF, 
+    0px -5px 11px 0px #BFBFBF;
 }
 
 .habilidades-titulo {
