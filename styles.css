@@ -2,7 +2,8 @@ body {
     font-family:'Open Sans', sans-serif;
 }
 
-.titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label {
+.titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
+.habilidades-titulo, .habilidades-subtitulo {
     font-family: 'Kanit'
 }
 
@@ -22,9 +23,22 @@ body {
     letter-spacing:-2px;
 }
 
+.habilidades-titulo {
+    letter-spacing:-1px;
+}
+
 #trabajoTitulo, .contacto-subtitulo {
     letter-spacing:2px;
     font-size:1.2rem;
+}
+
+
+.habilidades-descripcion {
+    line-height:2;
+}
+
+.habilidades-subtitulo {
+    font-weight:400!important;
 }
 
 
