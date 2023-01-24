@@ -1,8 +1,42 @@
 body {
     font-family:'Open Sans', sans-serif;
+    background-color:#CCC5B9;
+    color:#252422;
 }
 
-.titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
+.bg-dark {
+    background-color:#252422!important;
+}
+
+.navbar-brand, .habilidades-titulo, .habilidades-descripcion, .habilidades-titulo-descripcion,
+.contacto-titulo, .contacto-label {
+    color:#FFFCF2!important;
+}
+
+.habilidades-subtitulo, .contacto-subtitulo {
+    color:#CCC5B9;
+}
+
+.titulo {
+    line-height:0.75em;
+}
+
+#trabajoTitulo, .bi-envelope-fill, .bi-telephone-fill, .bi-geo-alt-fill {
+    color:#EB5E28;
+}
+
+.btn-dark, .bi-terminal, .bi-envelope, .bi-telephone, .bi-geo-alt {
+    background-color:#EB5E28!important;
+    border-color:#EB5E28!important;
+    color:#FFFCF2!important;
+    
+}
+
+.bi-github, .bi-linkedin {
+    color:hsl(34, 6%, 60%);
+}
+
+.contacto-titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
 .habilidades-titulo, .habilidades-subtitulo {
     font-family: 'Kanit'
 }
@@ -17,6 +51,8 @@ body {
 
 .boton-contacto {
     max-width:500px!important;
+    color:#252422;
+    background-color:#FFFCF2;
 }
 
 .nombre, .titulo {
@@ -35,15 +71,19 @@ body {
 }
 
 .habilidades-titulo {
-    letter-spacing:-1px;
+    letter-spacing:-0.5px;
 }
 
-.habilidades-descripcion {
+.habilidades-titulo-descripcion {
     line-height:2;
 }
 
 .habilidades-subtitulo {
     font-weight:400!important;
+}
+
+.habilidades-border {
+    border-color:#CCC5B9!important;
 }
 
 .fw-bold {
@@ -57,10 +97,13 @@ body {
 .form-control {
     border: 1px solid rgba(255, 255, 255, .1);
     box-shadow: 0px 0px 17px -10px #000000;
+    background-color:#2E2D2A;
+    color:#FFFCF2!important;
 
 }
 
 .form-control:focus {
+    background-color:#2E2D2A;
     border-color:grey;
     box-shadow:0 0 0 .25rem rgba(255, 255, 255, 0.25);
 }
@@ -83,10 +126,10 @@ body {
     transition-property: color, border-color, background-color;
   }
   .hvr-fade-light:hover, .hvr-fade-light:focus, .hvr-fade-light:active {
-    background-color:rgb(207, 207, 207);
-    border-color:rgb(207, 207, 207);
-    color: rgb(33, 37, 41)!important;
-  }
+    background-color:#FFFCF2!important;
+    border-color:rgb(207, 207, 207)!important;
+    color:#252422!important;
+  } 
 
 .hvr-fade-dark {
     display: inline-block;
@@ -101,9 +144,9 @@ body {
     transition-property: color, border-color, background-color;
   }
   .hvr-fade-dark:hover, .hvr-fade-dark:focus, .hvr-fade-dark:active {
-    background-color: rgb(27, 31, 34);
-    border-color:rgb(27, 31, 34);
-    color: white!important;
+    background-color: hsl(40, 4%, 10%);
+    border-color:#252422;
+    color: #FFFCF2!important;
   }
 
 
@@ -118,8 +161,8 @@ body {
     .habilidades-border {
         border-left: 0px!important;
         border-right: 0px!important;
-        border-top:2px solid white;
-        border-bottom:2px solid white;
+        border-top:2px solid #FFFCF2;
+        border-bottom:2px solid #FFFCF2;
     }
 }
 
