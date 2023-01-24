@@ -30,6 +30,33 @@ function renderPersona(persona) {
 
 
 
-// TODO: hacer lista random de titulos
-let trabajoTitulo = 'WEB DEVELOPER'
+
+
+let listaTrabajos = [
+    "Desarrollador Full Stack",
+    "Desarrollador Front-End",
+    "Desarrollador Back-End",
+    "Desarrollador UI",
+    "Desarrollador UX",
+    "Desarrollador JavaScript",
+    "Desarrollador React",
+    "Desarrollador Angular",
+    "Desarrollador Vue.js",
+    "Desarrollador Node.js",
+    "Desarrollador PHP",
+    "Desarrollador Ruby on Rails",
+    "Desarrollador Python",
+    "Desarrollador Java",
+]
+
+//elegir un trabajo aleatorio de una lista
+function elegirTrabajoAleatorio(listaTrabajos) {
+    let indexAleatorio = Math.floor(Math.random() * listaTrabajos.length);
+    return(listaTrabajos[indexAleatorio]);
+}
+
+let trabajoTitulo = elegirTrabajoAleatorio(listaTrabajos);
+
+
+
 
