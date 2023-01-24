@@ -25,7 +25,8 @@ body {
     color:#EB5E28;
 }
 
-.btn-dark, .bi-terminal, .bi-envelope, .bi-telephone, .bi-geo-alt {
+.btn-dark, .bi-pencil-square, .bi-terminal, .bi-code-square,
+.bi-envelope, .bi-telephone, .bi-geo-alt {
     background-color:#EB5E28!important;
     border-color:#EB5E28!important;
     color:#FFFCF2!important;
