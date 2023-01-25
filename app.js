@@ -15,7 +15,7 @@ function renderPersona(persona) {
     document.getElementById('trabajoTitulo').innerHTML = trabajoTitulo;
     document.getElementById('email').innerHTML = persona.email;
     document.getElementById('telefono').innerHTML = persona.phone;
-    document.getElementById('direccion').innerHTML = `${persona.location.street.number} ${persona.location.street.name}`;
+    document.getElementById('direccion').innerHTML = `${persona.location.street.number} ${persona.location.street.name}, ${persona.location.city}, ${persona.location.country}`;
     
     //Conseguir todos los elementos con la clase "placeholder", removerles la clase "placeholder"
     //y cambiarle la opacidad a 1
