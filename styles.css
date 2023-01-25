@@ -18,7 +18,7 @@ body {
 }
 
 .titulo {
-    line-height:0.75em;
+    line-height:1em;
 }
 
 #trabajoTitulo, .bi-envelope-fill, .bi-telephone-fill, .bi-geo-alt-fill {
@@ -154,6 +154,10 @@ body {
 @media (min-width: 768px) {
     .contacto-email, .contacto-nombre {
         width:47.5%;
+    }
+    .barra-navegacion {
+        margin-left:160px;
+        margin-right:160px;
     }
 
 }
