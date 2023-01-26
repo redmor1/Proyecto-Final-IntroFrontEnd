@@ -1,20 +1,20 @@
 body {
     font-family:'Open Sans', sans-serif;
-    background-color:#CCC5B9;
-    color:#252422;
+    background-color:#FFF6E7;
+    color:#141413;
+}
+
+.fw-semibold {
+    font-weight:600!important;
 }
 
 .bg-dark {
     background-color:#252422!important;
 }
 
-.navbar-brand, .habilidades-titulo, .habilidades-descripcion, .habilidades-titulo-descripcion,
-.contacto-titulo, .contacto-label {
-    color:#FFFCF2!important;
-}
 
 .habilidades-subtitulo, .contacto-subtitulo {
-    color:#CCC5B9;
+    color:#F26079;
 }
 
 .titulo {
@@ -22,15 +22,18 @@ body {
 }
 
 #trabajoTitulo, .bi-envelope-fill, .bi-telephone-fill, .bi-geo-alt-fill {
-    color:#EB5E28;
+    color:#F26079;
 }
 
-.btn-dark, .bi-pencil-square, .bi-terminal, .bi-code-square,
 .bi-envelope, .bi-telephone, .bi-geo-alt {
     background-color:#EB5E28!important;
     border-color:#EB5E28!important;
     color:#FFFCF2!important;
-    
+}
+
+.bi-pencil-square, .bi-terminal, .bi-code-square {
+    color:#A64253;
+    border-color:#A64253!important;
 }
 
 .bi-github, .bi-linkedin {
@@ -38,7 +41,7 @@ body {
 }
 
 .contacto-titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
-.habilidades-titulo, .habilidades-subtitulo {
+.habilidades-titulo, .habilidades-subtitulo, .titulo {
     font-family: 'Kanit'
 }
 
@@ -52,12 +55,12 @@ body {
 
 .boton-contacto {
     max-width:500px!important;
-    color:#252422;
-    background-color:#FFFCF2;
+    color:#A64253;
+    border-color:#A64253;
 }
 
 .nombre, .titulo {
-    letter-spacing:-2px;
+    letter-spacing:-2.5px;
 }
 
 
@@ -66,46 +69,33 @@ body {
     font-size:1.2rem;
 }
 
-.habilidades-container, .contacto-container {
-    box-shadow: 0px 5px 11px 0px #BFBFBF, 
-    0px -5px 11px 0px #BFBFBF;
+.habilidades-container, .habilidades-border, .contacto-container {
+    border-color:#A6A096!important;
 }
-
 .habilidades-titulo {
     letter-spacing:-0.5px;
+    color:#252422;
 }
 
 .habilidades-titulo-descripcion {
     line-height:2;
 }
 
-.habilidades-subtitulo {
-    font-weight:400!important;
-}
 
-.habilidades-border {
-    border-color:#CCC5B9!important;
-}
-
-.fw-bold {
-    font-weight:500!important;
-}
 
 .fs-6 {
     font-size:1.1rem!important;
 }
 
 .form-control {
-    border: 1px solid rgba(255, 255, 255, .1);
-    box-shadow: 0px 0px 17px -10px #000000;
-    background-color:#2E2D2A;
+    border: 0px solid #A6A096;
+    background-color:#A6A096;
     color:#FFFCF2!important;
 
 }
 
 .form-control:focus {
-    background-color:#2E2D2A;
-    border-color:grey;
+    background-color:hsl(37, 8%, 40%);
     box-shadow:0 0 0 .25rem rgba(255, 255, 255, 0.25);
 }
 
@@ -162,12 +152,14 @@ body {
 
 }
 
+
+
 @media(max-width:767px) {
     .habilidades-border {
         border-left: 0px!important;
         border-right: 0px!important;
-        border-top:2px solid #FFFCF2;
-        border-bottom:2px solid #FFFCF2;
+        border-top:4px solid #A6A096!important;
+        border-bottom:4px solid #A6A096!important;
     }
 }
 
