@@ -12,6 +12,10 @@ body {
     background-color:#252422!important;
 }
 
+.navbar-brand {
+    color:#F2F0EB;
+}
+
 
 .habilidades-subtitulo, .contacto-subtitulo {
     color:#F26079;
@@ -36,7 +40,7 @@ body {
 }
 
 .bi-github, .bi-linkedin {
-    color:hsl(34, 6%, 60%);
+    color:hsl(34, 8%, 84%);
 }
 
 .contacto-titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
@@ -89,7 +93,7 @@ body {
 .form-control {
     border: 0px solid #A6A096;
     background-color:#A6A096;
-    color:#FFFCF2!important;
+    color:#ffffff!important;
 
 }
 
@@ -164,6 +168,9 @@ body {
 @media (max-width: 400px) {
     .nombre {
         font-size:calc(1.32rem + 4.5vw);
+    }
+    .navbar-brand {
+        font-size:1.75rem;
     }
 }
 
