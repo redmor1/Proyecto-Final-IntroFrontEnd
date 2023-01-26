@@ -109,7 +109,6 @@ body {
 
 .info-contacto-texto {
     color:#FFFCF7;
-    font-size:1rem;
 }
 
 .placeholder-transicion {
@@ -135,6 +134,15 @@ body {
     color:#FFFCF7!important;
   } 
 
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .display-xl-2 {
+        font-size:4.5rem
+    }
+    .info-contacto-texto {
+        font-size:1.1rem!important;
+    }
+}
 
 
 @media (min-width: 768px) {
