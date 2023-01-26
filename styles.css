@@ -105,7 +105,7 @@ body {
 
 .info-contacto-texto {
     color:#FFFCF7;
-    font-size:1.1rem;
+    font-size:1rem;
 }
 
 .placeholder-transicion {
@@ -126,28 +126,11 @@ body {
     transition-property: color, border-color, background-color;
   }
   .hvr-fade-light:hover, .hvr-fade-light:focus, .hvr-fade-light:active {
-    background-color:#FFFCF2!important;
-    border-color:rgb(207, 207, 207)!important;
-    color:#252422!important;
+    background-color:#A64253!important;
+    border-color:#A64253!important;
+    color:#FFFCF7!important;
   } 
 
-.hvr-fade-dark {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    overflow: hidden;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    -webkit-transition-property: color, border-color, background-color;
-    transition-property: color, border-color, background-color;
-  }
-  .hvr-fade-dark:hover, .hvr-fade-dark:focus, .hvr-fade-dark:active {
-    background-color: hsl(40, 4%, 10%);
-    border-color:#252422;
-    color: #FFFCF2!important;
-  }
 
 
 @media (min-width: 768px) {
@@ -181,9 +164,6 @@ body {
 @media (max-width: 400px) {
     .nombre {
         font-size:calc(1.32rem + 4.5vw);
-    }
-    #email, #telefono, #direccion {
-        font-size:calc(0.9rem + 1.5vw);
     }
 }
 
