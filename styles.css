@@ -26,9 +26,8 @@ body {
 }
 
 .bi-envelope, .bi-telephone, .bi-geo-alt {
-    background-color:#EB5E28!important;
-    border-color:#EB5E28!important;
-    color:#FFFCF2!important;
+    background-color:#F26079!important;
+    color:#FFFCF7!important;
 }
 
 .bi-pencil-square, .bi-terminal, .bi-code-square {
@@ -41,7 +40,7 @@ body {
 }
 
 .contacto-titulo, .nombre, #trabajoTitulo, nav, .boton-contacto, .contacto-subtitulo, .contacto-label,
-.habilidades-titulo, .habilidades-subtitulo, .titulo {
+.habilidades-titulo, .habilidades-subtitulo, .titulo, .info-contacto-titulo {
     font-family: 'Kanit'
 }
 
@@ -97,6 +96,16 @@ body {
 .form-control:focus {
     background-color:hsl(37, 8%, 40%);
     box-shadow:0 0 0 .25rem rgba(255, 255, 255, 0.25);
+}
+
+.info-contacto-titulo {
+    letter-spacing:2px;
+    color:#FFFCF7;
+}
+
+.info-contacto-texto {
+    color:#FFFCF7;
+    font-size:1.1rem;
 }
 
 .placeholder-transicion {
