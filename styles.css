@@ -29,12 +29,8 @@ body {
     color:#F26079;
 }
 
-.bi-envelope, .bi-telephone, .bi-geo-alt {
-    background-color:#F26079!important;
-    color:#FFFCF7!important;
-}
 
-.bi-pencil-square, .bi-terminal, .bi-code-square {
+.bi-pencil-square, .bi-terminal, .bi-code-square, .bi-envelope, .bi-telephone, .bi-geo-alt {
     color:#A64253;
     border-color:#A64253!important;
 }
@@ -72,7 +68,7 @@ body {
     font-size:1.2rem;
 }
 
-.habilidades-container, .habilidades-border, .contacto-container {
+.habilidades-container, .habilidades-border, .contacto-container, .informacion-contacto {
     border-color:#A6A096!important;
 }
 .habilidades-titulo {
@@ -104,11 +100,11 @@ body {
 
 .info-contacto-titulo {
     letter-spacing:2px;
-    color:#FFFCF7;
+    color:#141413;
 }
 
 .info-contacto-texto {
-    color:#FFFCF7;
+    color:#141413;
 }
 
 .placeholder-transicion {
@@ -144,6 +140,12 @@ body {
     }
 }
 
+@media (max-width:1200px) {
+    .informacion-contacto {
+        border-left: 0px!important;
+        border-top:4px solid #A6A096!important;
+}
+}
 
 @media (min-width: 768px) {
     .contacto-email, .contacto-nombre {
