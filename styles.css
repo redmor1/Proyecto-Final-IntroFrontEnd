@@ -171,6 +171,9 @@ body {
     #trabajoTitulo {
         font-size:1rem;
     }
+    .nombre, .apellido {
+        letter-spacing:0px;
+    }
 }
 
 @media (max-width: 400px) {
