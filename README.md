@@ -38,3 +38,18 @@ https://user-images.githubusercontent.com/63423005/215148188-de79adf3-0364-4414-
 https://user-images.githubusercontent.com/63423005/215148202-61435b6b-7cad-49ee-991c-4d5b67da177b.mp4
 
 
+## Reflección sobre mi proyecto
+
+Empecé mi proyecto con la idea de mejorar mis habilidades en front-end. Comencé con un diseño low-fi en Figma para desktop y movil. Durante el proceso, aprendí sobre importantes aspectos del diseño web, como la tipografía, llamar la atención del usuario con llamados a la acción (CTA) y cómo elegir y utilizar una paleta de colores. También experimenté con JS y APIs, y descubrí cómo las promesas y las funciones flecha simplifican mucho el código en comparación con el antiguo "callback hell".
+
+Sin embargo, también cometí algunos errores que tendre en cuenta para mi próximo proyecto:
+
+Al diseñar el maquetado low-fi en Figma, no consideré que Bootstrap ya viene con márgenes y paddings estandarizados. Al plasmar el diseño en HTML/CSS y usar los valores de Bootstrap, encontré dificultades para hacerlo de manera que se pareciera al maquetado original.
+
+Debería haber realizado un diseño high-fi después del low-fi. Al comenzar a plasmar el diseño en HTML/CSS, tenía claras mis ideas sobre cada sección, pero a la hora de agregar colores y tipografía, me resultó más difícil hacerlo sin una guía visual. Además, Bootstrap viene con clases y tamaños de tipografía estandarizados que me hubieran sido útiles para elegir los tamaños de la tipografía en un diseño high-fi y me hubieran facilitado mucho el proceso al plasmarlo en HTML/CSS.
+
+
+
+
+
+
